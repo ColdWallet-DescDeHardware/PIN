@@ -3,7 +3,7 @@ module pin (w_o, b_esq_i, b_dir_i, pin_vec_i,pin_vec_o);
   input wire b_esq_i, b_dir_i;
   output reg w_o;
   input wire [15:0] pin_vec_i;
-  input wire [15:0] pin_vec_o;
+  output wire [15:0] pin_vec_o;
   reg [15:0] pin_true_vec;
   reg [15:0] pin_select_vec;
 
